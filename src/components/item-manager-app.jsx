@@ -74,12 +74,26 @@ function ItemManager() {
             </tr>
           </thead>
           <tbody>
-            {/*
-             * TODO: Your code goes here
-             * !!! IMPORTANT !!!
-             * - All items must be listed here (above the form row).
-             * - Your input form must be implemented as the LAST row in this table.
-             */}
+            {
+              <select
+                value={category}
+                onChange={(e) => setCategory(e.target.value)}
+              >
+                <option value="" disabled>
+                  Select Category
+                </option>
+                <option value="Stationary">Stationary</option>
+                <option value="Kitchenware">Kitchenware</option>
+                <option value="Appliance">Appliance</option>
+              </select>
+
+              /*
+               * TODO: Your code goes here
+               * !!! IMPORTANT !!!
+               * - All items must be listed here (above the form row).
+               * - Your input form must be implemented as the LAST row in this table.
+               */
+            }
           </tbody>
         </table>
       </div>

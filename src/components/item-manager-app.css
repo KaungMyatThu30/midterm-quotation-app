@@ -12,8 +12,8 @@ body {
   border-collapse: collapse;
   text-align: left;
   background-color: white;
-  padding: 20px;
-  border-radius: 8px;
+  width: 100px;
+  margin-top: 20px;
 }
 
 .item-table th,
