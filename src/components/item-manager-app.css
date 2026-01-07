@@ -3,10 +3,17 @@
   padding-left: 20px; /* Header alignment */
 }
 
+body {
+  background-color: white;
+}
+
 /* Table basic style */
 .item-table {
   border-collapse: collapse;
   text-align: left;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
 }
 
 .item-table th,
@@ -18,4 +25,8 @@
 #h1 {
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+tr {
+  background-color: white;
 }
